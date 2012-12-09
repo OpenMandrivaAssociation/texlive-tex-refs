@@ -39,3 +39,16 @@ DocBook/XML.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3.8-2
++ Revision: 756747
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3.8-1
++ Revision: 719712
+- texlive-tex-refs
+- texlive-tex-refs
+- texlive-tex-refs
+
