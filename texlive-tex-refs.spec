@@ -1,12 +1,12 @@
-# revision 15878
+# revision 31946
 # category Package
 # catalog-ctan /info/tex-references
-# catalog-date 2008-04-20 19:53:04 +0200
+# catalog-date 2013-10-18 11:31:56 +0200
 # catalog-license other-free
-# catalog-version 0.3.8
+# catalog-version 0.4.8
 Name:		texlive-tex-refs
-Version:	0.3.8
-Release:	2
+Version:	0.4.8
+Release:	1
 Summary:	References for TeX and Friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-references
@@ -26,9 +26,11 @@ DocBook/XML.
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/generic/tex-refs/README
-%doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs-source.tar.gz
+%doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs-0.4.1.tar.bz2
 %doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs.css
+%doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs.epub
 %doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs.html
+%doc %{_texmfdistdir}/doc/generic/tex-refs/tex-refs.txt
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,16 +41,3 @@ DocBook/XML.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3.8-2
-+ Revision: 756747
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3.8-1
-+ Revision: 719712
-- texlive-tex-refs
-- texlive-tex-refs
-- texlive-tex-refs
-
