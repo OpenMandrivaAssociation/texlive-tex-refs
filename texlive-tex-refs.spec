@@ -6,7 +6,7 @@
 # catalog-version 0.4.8
 Name:		texlive-tex-refs
 Version:	0.4.8
-Release:	2
+Release:	3
 Summary:	References for TeX and Friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-references
