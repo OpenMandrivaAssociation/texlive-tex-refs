@@ -1,18 +1,12 @@
-# revision 31946
-# category Package
-# catalog-ctan /info/tex-references
-# catalog-date 2013-10-18 11:31:56 +0200
-# catalog-license other-free
-# catalog-version 0.4.8
 Name:		texlive-tex-refs
-Version:	0.4.8
-Release:	10
+Version:	57349
+Release:	1
 Summary:	References for TeX and Friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-references
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -34,7 +28,7 @@ DocBook/XML.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
