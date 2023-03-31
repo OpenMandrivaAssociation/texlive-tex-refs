@@ -1,6 +1,6 @@
 Name:		texlive-tex-refs
 Version:	57349
-Release:	1
+Release:	2
 Summary:	References for TeX and Friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/tex-references
