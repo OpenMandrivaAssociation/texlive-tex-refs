@@ -3,7 +3,7 @@ Version:	57349
 Release:	2
 Summary:	References for TeX and Friends
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/tex-references
+URL:		https://www.ctan.org/tex-archive/info/tex-references
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tex-refs.doc.r%{version}.tar.xz
